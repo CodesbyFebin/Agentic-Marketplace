@@ -1,0 +1,25 @@
+# TEMPLATE ONLY. Do not fabricate evidence or pretend an entry is approved.
+id: your-project-slug
+type: agent
+name: Your Project Name
+slug: your-project-slug
+version: 0.1.0
+tagline: Short accurate description
+description: Source-linked project description. Unknown claims remain unknown.
+repository: https://github.com/your-account/your-project
+categories: [coding]
+tags: [agent]
+capabilities: []
+deployment: unknown
+pricing:
+  model: unknown
+  notes: No pricing evidence verified
+evidence:
+  sourceUrl: https://github.com/your-account/your-project
+  retrievedAt: REPLACE_WITH_ACTUAL_RETRIEVAL_TIME
+  sha256: REPLACE_WITH_REAL_SNAPSHOT_SHA256
+author:
+  name: Your name
+  github: your-account
+license: null
+status: pending
