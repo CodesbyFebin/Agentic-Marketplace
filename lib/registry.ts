@@ -1,4 +1,3 @@
-import "server-only";
 import { readdirSync, readFileSync, existsSync } from "node:fs";
 import path from "node:path";
 import { parse } from "yaml";
