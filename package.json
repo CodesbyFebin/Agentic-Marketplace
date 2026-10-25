@@ -1,0 +1,30 @@
+{
+  "name": "agentic-marketplace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "verify:submissions": "node scripts/validate-submission.mjs",
+    "verify": "npm run verify:submissions && npm run typecheck && npm run lint && npm run build"
+  },
+  "dependencies": {
+    "next": "15.5.12",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "yaml": "2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.9.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "15.5.12"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
